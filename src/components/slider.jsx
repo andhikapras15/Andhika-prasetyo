@@ -56,14 +56,14 @@ export default function Sosmed_Slider() {
   return (
     <div
       ref={slideRef}
-      className=" relative transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
+      className="relative transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
     >
       <img
         src={sosmedpict[currentIndex]}
-        className="w-full h-64"
+        className="w-[520px] h-64"
         alt="slider1"
       />
-      <div className="absolute top-1/2 transform -translate-y-1/2 px-1 flex justify-between items-center w-full">
+      <div className="absolute top-1/2 transform -translate-y-1/2 px-1 flex justify-between items-center w-[438px]">
         <button
           onClick={handleOnPrevClick}
           className="bg-gray-500 text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
