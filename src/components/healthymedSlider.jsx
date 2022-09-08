@@ -8,12 +8,12 @@ export default function HealthymedSlider() {
   const sosmedpict = [
     "/Healthymed1.png",
     "/Healthymed2.png",
-    "/Healthymed3.png",
-    "/Healthymed4.png",
-    "/Healthymed5.png",
-    "/Healthymed6.png",
-    "/Healthymed7.png",
-    "/Healthymed8.png",
+    "/healthymed3.png",
+    "/healthymed4.png",
+    "/healthymed5.png",
+    "/healthymed6.png",
+    "/healthymed7.png",
+    "/healthymed8.png",
   ];
 
   const slideRef = useRef();

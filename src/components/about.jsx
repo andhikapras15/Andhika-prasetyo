@@ -83,7 +83,7 @@ const About = () => {
         <div className="absolute left-52 top-48 rounded-xl bg-gray-600 w-64 h-[320px]"></div>
         <div className="flex justify-center items-center ">
           <img
-            src="./andhika.png"
+            src="./Andhika.png"
             alt="profile"
             className="w-64 h-[320px] mt-20 rounded-xl relative"
           />
