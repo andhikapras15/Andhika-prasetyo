@@ -1,5 +1,5 @@
-import SosmedSlider from "./slider";
-import HealthymedSlider from "./slider2";
+import SosmedSlider from "./sosmedSlider";
+import HealthymedSlider from "./healthymedSlider";
 
 const Project = () => {
   return (
