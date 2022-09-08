@@ -10,7 +10,7 @@ const Project = () => {
           Work That I've <br></br>Done
         </p>
       </div>
-      <div className="flex justify-between my-20 ">
+      <div className="w-[100%] flex justify-between my-20 ">
         <div className="  w-[65%]">
           <p className="text-3xl font-semibold">01</p>
           <p className="text-xl font-semibold mb-5">Social Media Project</p>
@@ -25,7 +25,7 @@ const Project = () => {
         </div>
         <Sosmed_Slider />
       </div>
-      <div className="flex justify-between mt-14 mb-20">
+      <div className="flex justify-between mt-14 mb-20 w-[100%]">
         <Healthymed_Slider />
         <div className="ml-16 w-[65%]">
           <p className="text-3xl font-semibold">02</p>
