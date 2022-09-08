@@ -89,8 +89,8 @@ const About = () => {
           />
         </div>
         <a
-          href="./cv_andhika-prasetyo.pdf"
-          download="./cv_andhika-prasetyo.pdf"
+          href="./cv-andhika-prasetyo.pdf"
+          download="./cv-andhika-prasetyo.pdf"
           className="flex justify-center items-center mt-9 ml-3"
         >
           <button
