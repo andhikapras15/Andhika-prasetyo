@@ -3,7 +3,7 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 let count = 0;
 let slideInterval;
-export default function Healthymed_Slider() {
+export default function HealthymedSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sosmedpict = [
     "/Healthymed1.png",
@@ -31,7 +31,6 @@ export default function Healthymed_Slider() {
     return () => {
       pauseSlider();
     };
-    // startSlider();
   }, []);
 
   const startSlider = () => {

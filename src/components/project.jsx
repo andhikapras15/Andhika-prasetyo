@@ -1,5 +1,5 @@
-import Sosmed_Slider from "./slider";
-import Healthymed_Slider from "./slider2";
+import SosmedSlider from "./slider";
+import HealthymedSlider from "./slider2";
 
 const Project = () => {
   return (
@@ -23,10 +23,10 @@ const Project = () => {
             <br />I used MySQL.
           </p>
         </div>
-        <Sosmed_Slider />
+        <SosmedSlider />
       </div>
       <div className="flex justify-between mt-14 mb-20 w-[100%]">
-        <Healthymed_Slider />
+        <HealthymedSlider />
         <div className="ml-16 w-[65%]">
           <p className="text-3xl font-semibold">02</p>
           <p className="text-xl font-semibold mb-5">Healthymed Project</p>

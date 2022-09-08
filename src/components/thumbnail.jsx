@@ -1,5 +1,3 @@
-import { BsArrowDown } from "react-icons/bs";
-
 const Thumbnail = () => {
   return (
     <div className="bg-gray-300 w-full h-screen flex">
@@ -31,9 +29,6 @@ const Thumbnail = () => {
           <br></br>
           What do you want to know about me ?
         </p>
-        {/* <div className="">
-          <BsArrowDown  />
-        </div> */}
         <img src="./arrow3.webp" className="arrow-down" alt="arrow" />
       </div>
     </div>

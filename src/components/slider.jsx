@@ -1,9 +1,9 @@
-import react, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 let count = 0;
 let slideInterval;
-export default function Sosmed_Slider() {
+export default function SosmedSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sosmedpict = [
     "/sosmed1.png",
@@ -28,7 +28,6 @@ export default function Sosmed_Slider() {
     return () => {
       pauseSlider();
     };
-    // startSlider();
   }, []);
 
   const startSlider = () => {
