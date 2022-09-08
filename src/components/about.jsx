@@ -1,3 +1,5 @@
+import { AiOutlineDownload } from "react-icons/ai";
+
 const About = () => {
   return (
     <div className="flex h-full ">
@@ -13,7 +15,7 @@ const About = () => {
         <p className="font-semibold text-xl mt-10 mb-3">Skills</p>
         <div className="flex items-center">
           <p className="mr-3 text-sm">Javascript</p>
-          <img src="./js.png" className="w-4 h-4" alt="" />
+          <img src="./js.png" className="w-4 h-4" alt="js" />
         </div>
         <div className="flex items-center">
           <div className="w-96 h-4 border-2 mr-3">
@@ -23,7 +25,7 @@ const About = () => {
         </div>
         <div className="flex items-center">
           <p className="mr-3 text-sm">HTML & CSS</p>
-          <img src="./html.png" className="w-7 h-4" alt="" />
+          <img src="./html.png" className="w-7 h-4" alt="html" />
         </div>
         <div className="flex items-center">
           <div className="w-96 h-4 border-2 mr-3">
@@ -33,7 +35,7 @@ const About = () => {
         </div>
         <div className="flex items-center">
           <p className="mr-3 text-sm">React.js</p>
-          <img src="./react.png" className="w-4 h-4" alt="" />
+          <img src="./react.png" className="w-4 h-4" alt="react" />
         </div>
         <div className="flex items-center">
           <div className="w-96 h-4 border-2 mr-3">
@@ -43,7 +45,7 @@ const About = () => {
         </div>
         <div className="flex items-center">
           <p className="mr-3 text-sm">Next.js</p>
-          <img src="./next.png" className="w-5 h-4" alt="" />
+          <img src="./next.png" className="w-5 h-4" alt="next" />
         </div>
         <div className="flex items-center">
           <div className="w-96 h-4 border-2 mr-3">
@@ -53,7 +55,7 @@ const About = () => {
         </div>
         <div className="flex items-center">
           <p className="mr-3 text-sm">Node.js</p>
-          <img src="./node.png" className="w-5 h-4" alt="" />
+          <img src="./node.png" className="w-5 h-4" alt="node" />
         </div>
         <div className="flex items-center">
           <div className="w-96 h-4 border-2 mr-3">
@@ -63,7 +65,7 @@ const About = () => {
         </div>
         <div className="flex items-center">
           <p className="mr-3 text-sm">MySQL</p>
-          <img src="./MySQL.png" className="w-5 h-4" alt="" />
+          <img src="./MySQL.png" className="w-5 h-4" alt="mysql" />
         </div>
         <div className="flex items-center">
           <div className="w-96 h-4 border-2 mr-3">
@@ -82,7 +84,7 @@ const About = () => {
         <div className="flex justify-center items-center ">
           <img
             src="./andhika.png"
-            alt=""
+            alt="profile"
             className="w-64 h-[320px] mt-20 rounded-xl relative"
           />
         </div>
@@ -93,9 +95,9 @@ const About = () => {
         >
           <button
             type="submit"
-            className="p-2 rounded-md bg-gray-600 text-xs hover:bg-gray-800 font-light"
+            className="p-2 rounded-md bg-gray-600 text-xs hover:bg-gray-800 font-light flex justify-center items-center"
           >
-            Download CV
+            Download CV <AiOutlineDownload size={17} />
           </button>
         </a>
         <div className="flex items-center justify-start mt-24 ml-3">

@@ -3,7 +3,7 @@ import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 let count = 0;
 let slideInterval;
-export default function Sosmed_slider() {
+export default function Sosmed_Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sosmedpict = [
     "/sosmed1.png",
@@ -58,7 +58,11 @@ export default function Sosmed_slider() {
       ref={slideRef}
       className=" relative transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
     >
-      <img src={sosmedpict[currentIndex]} className="w-full h-64" />
+      <img
+        src={sosmedpict[currentIndex]}
+        className="w-full h-64"
+        alt="slider1"
+      />
       <div className="absolute top-1/2 transform -translate-y-1/2 px-1 flex justify-between items-center w-full">
         <button
           onClick={handleOnPrevClick}

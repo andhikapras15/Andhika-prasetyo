@@ -9,7 +9,11 @@ const Thumbnail = () => {
           <p className="font-bold text-xl">Andhika Prasetyo</p>
         </div>
         <div className="flex justify-end pt-20">
-          <img className="rounded-full h-96 w-96" src="./edit.png" />
+          <img
+            className="rounded-full h-96 w-96"
+            src="./edit.png"
+            alt="homepic"
+          />
         </div>
       </div>
       <div className="w-1/2 flex flex-col justify-center pl-7">
@@ -30,7 +34,7 @@ const Thumbnail = () => {
         {/* <div className="">
           <BsArrowDown  />
         </div> */}
-        <img src="./arrow3.webp" className="arrow-down" />
+        <img src="./arrow3.webp" className="arrow-down" alt="arrow" />
       </div>
     </div>
   );

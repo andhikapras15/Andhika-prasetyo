@@ -1,9 +1,9 @@
-import react, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 let count = 0;
 let slideInterval;
-export default function Healthymed_slider() {
+export default function Healthymed_Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sosmedpict = [
     "/Healthymed1.png",
@@ -61,7 +61,11 @@ export default function Healthymed_slider() {
       ref={slideRef}
       className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 relative"
     >
-      <img src={sosmedpict[currentIndex]} className="w-[600px] h-64" />
+      <img
+        src={sosmedpict[currentIndex]}
+        className="w-[600px] h-64"
+        alt="slider2"
+      />
       <div className="absolute top-1/2 transform -translate-y-1/2 px-1 flex justify-between items-center w-full">
         <button
           onClick={handleOnPrevClick}
